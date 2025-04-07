@@ -8,6 +8,7 @@
    SMART CITY, SMART AGRICULTURE
 </h2>
 <br>
+<br>
 <div align="center">
     <p align="center">
         <img src="aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
