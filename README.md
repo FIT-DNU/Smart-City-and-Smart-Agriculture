@@ -5,7 +5,7 @@
 </h2>
 <br>
 <h2 align="center">
-   SMART CITY and SMART AGRICULTURE
+   SMART CITY, SMART AGRICULTURE
 </h2>
 <br>
 <div align="center">
