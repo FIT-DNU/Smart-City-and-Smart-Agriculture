@@ -24,19 +24,19 @@ pip install ultralytics opencv-python numpy
 
 ```
 project_root/
-├── hi2.mp4                   # video đầu vào (hoặc đổi tên khác)
-├── best_traffic_nano_yolo.pt # model detect đèn giao thông
-├── yolov8n.pt                # model COCO để detect ôtô
-├── vi_pham/                  # (tự động tạo) lưu ảnh vi phạm
-└── 2_light.py                # script chính
+├── hi2.mp4                      # video đầu vào (hoặc đổi tên khác)
+├── best_traffic_nano_yolo.pt    # model detect đèn giao thông
+├── yolov8n.pt                   # model COCO để detect ôtô
+├── vi_pham/                     # (tự động tạo) lưu ảnh vi phạm
+└── traffic_light_violation.py   # script chính
 ```  
 
 ## Cách chạy
 
-1. **Chỉnh biến** `VIDEO_SOURCE` trong `2_light.py` thành đường dẫn đến video (ví dụ: `r'D:\Source\hi2.mp4'`).
+1. **Chỉnh biến** `VIDEO_SOURCE` trong `traffic_light_violation.py` thành đường dẫn đến video (ví dụ: `r'D:\Source\hi2.mp4'`).
 2. Chạy script:
    ```bash
-   python 2_light.py
+   python traffic_light_violation.py
    ```
 3. Khi cửa sổ `Select Line` mở lên:
    - Nhấn chuột trái để chọn **2 điểm** xác định vạch kiểm soát.
@@ -56,4 +56,4 @@ project_root/
 
 ---
 
-*Created by Khoa Công nghệ Thông tin*
+*Created by Nguyen Van Nhan (AIoT-Lab Khoa CNTT FIT-DNU)*
