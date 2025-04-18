@@ -196,4 +196,7 @@ cv2.putText(frame, f"Violations: {violation_count}", (10,60), ...)
 - **Hệ thống cảnh báo thời gian thực**: tích hợp gửi email, SMS hoặc thông báo push khi có xe vi phạm mới.
 - **Mở rộng logic**: lưu vecto chuyển động để tính tốc độ, kết hợp phân loại loại xe (ô tô con, xe tải) để phân loại vi phạm.
 
-**Lưu ý**: Tên file script gốc đã được đổi thành `traffic_light_violation.py`
+*Created by Nguyen Van Nhan*
+[![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
+[![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
+[![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
