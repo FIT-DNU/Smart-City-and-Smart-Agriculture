@@ -1,6 +1,4 @@
-Một dự án ví dụ cho các bài toán nằm trong Thành phố thông minh
-
-# README
+# Một dự án ví dụ nhỏ cho các bài toán nằm trong Thành phố thông minh
 
 ## Yêu cầu môi trường
 
