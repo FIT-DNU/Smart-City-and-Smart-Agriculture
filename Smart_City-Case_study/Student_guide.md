@@ -1,4 +1,4 @@
-# Hướng dẫn chi tiết cho sinh viên: Giải thích mã `2_light.py`
+# Hướng dẫn chi tiết cho sinh viên: Giải thích mã `traffic_light_violation.py`
 
 ## 1. Mục tiêu của bài tập
 
@@ -22,7 +22,7 @@
 ## 3. Cấu trúc chính của script
 
 ```text
-2_light.py        # script chính
+traffic_light_violation.py        # script chính
 hi2.mp4           # video đầu vào
 yolov8n.pt        # YOLOv8n COCO model (detect ô tô)
 best_traffic_nano_yolo.pt  # model detect đèn
@@ -196,3 +196,4 @@ cv2.putText(frame, f"Violations: {violation_count}", (10,60), ...)
 - **Hệ thống cảnh báo thời gian thực**: tích hợp gửi email, SMS hoặc thông báo push khi có xe vi phạm mới.
 - **Mở rộng logic**: lưu vecto chuyển động để tính tốc độ, kết hợp phân loại loại xe (ô tô con, xe tải) để phân loại vi phạm.
 
+**Lưu ý**: Tên file script gốc đã được đổi thành `traffic_light_violation.py`
