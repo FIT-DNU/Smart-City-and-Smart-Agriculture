@@ -1,4 +1,4 @@
-# Một dự án ví dụ nhỏ cho các bài toán nằm trong Thành phố thông minh
+# Một dự án ví dụ nhỏ cho các bài toán nằm trong Thành phố thông minh về Giám sát giao thông thông minh
 
 ## Yêu cầu môi trường
 
