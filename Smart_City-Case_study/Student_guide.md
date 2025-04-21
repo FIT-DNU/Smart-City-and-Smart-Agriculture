@@ -188,7 +188,7 @@ cv2.putText(frame, f"Violations: {violation_count}", (10,60), ...)
 ---
 
 **Mở rộng.*
-- **Thay đổi đầu vào của chương trình**: Chuyển việc xử lý từ Video sang xử lý Video Stream từ Esp32-camera. 
+- **Thay đổi đầu vào của chương trình**: Chuyển việc xử lý Video sang xử lý Video Stream từ Esp32-camera. 
 - **Tích hợp nhận dạng biển số xe (OCR)**: sau khi crop ảnh vi phạm, sử dụng thư viện OCR (ví dụ: Tesseract hoặc OpenALPR) để đọc và trích xuất biển số, lưu biển số kèm timestamp và file ảnh.
 - **Lưu trữ vào cơ sở dữ liệu**: kết nối SQLite hoặc MySQL để lưu thông tin vi phạm (biển số, trạng thái đèn, vị trí vạch, đường dẫn ảnh), phục vụ tra cứu và thống kê.
 - **Xây dựng giao diện giám sát Web**: dùng Flask hoặc Django để hiển thị video live, danh sách vi phạm, biểu đồ thống kê số lần vi phạm theo thời gian.
