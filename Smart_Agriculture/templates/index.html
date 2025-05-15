@@ -1,1 +1,35 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Water Pump Prediction</title>
+</head>
+<body>
+  <h1>Nhập dữ liệu cảm biến</h1>
+  <form method="post">
+    <label>Temperature (°C):</label>
+    <input type="number" step="0.01" name="temperature" required><br><br>
+
+    <label>Humidity (%):</label>
+    <input type="number" step="0.01" name="humidity_env" required><br><br>
+
+    <label>Soil Moisture (%):</label>
+    <input type="number" step="0.01" name="soil_moisture" required><br><br>
+
+    <button type="submit">Dự đoán và gửi lệnh</button>
+  </form>
+
+  {% if result %}
+    <hr>
+    <h2>Kết quả</h2>
+    <p>Predicted Volume: <strong>{{ result.predicted_volume }} ml</strong></p>
+    <p>Action (gửi ESP): <strong>{{ result.action }}</strong></p>
+    <ul>
+      <li>Temperature: {{ result.temperature }}</li>
+      <li>Humidity: {{ result.humidity_env }}</li>
+      <li>Soil moisture: {{ result.soil_moisture }}</li>
+    </ul>
+  {% endif %}
+</body>
+</html>
