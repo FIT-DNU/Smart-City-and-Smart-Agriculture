@@ -26,7 +26,7 @@
 <h4 align="left">
    KHÓA 15
 </h4>
-<br>https://github.com/Dymilano/Drone-Image-Processing-Using-Blockchain/tree/main
+<https://github.com/Dymilano/Drone-Image-Processing-Using-Blockchain/tree/main
 <br>https://github.com/Juli-1611/Phat-hien-te-nga-AI
 <br>https://github.com/Veirea/NNTMvTPTM
 <br>https://github.com/Nguyentiendat22/NguyenTienDat-NNTMVTPTT.git
